@@ -113,7 +113,7 @@ This schema is query-ready and migration-ready for relational storage.
 
 Feedback and iteration are documented in:
 - `https://docs.google.com/forms/d/e/1FAIpQLSd0gPeNOEnbcRU0Ld6SxiL9ShnmChXzCGci0pdPFaqKBft8LQ/viewform?usp=dialog`
-
+user feadbacks `https://docs.google.com/spreadsheets/d/1Z_g-usNOPdgCqJD8ugVWBnagJsbDabLCqWhYH1XF3yA/edit?resourcekey=&gid=13758662#gid=13758662`
 Implemented feedback iteration:
 - Marketplace empty-state issue resolved with fallback data + richer filters/cards.
 

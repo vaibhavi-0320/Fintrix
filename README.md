@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-gold?style=flat-square)](LICENSE)
 
 ![CI](https://github.com/vaibhavi-0320/StellerFund/actions/workflows/main.yml/badge.svg)
-[🎬 Demo](https://www.loom.com/share/15ca447c73c246ccafb7e6cb7cf675a9) · [🔴 Live App](https://steller-fund.vercel.app/) · [⚙️ CI/CD](https://github.com/vaibhavi-0320/StellerFund/actions)
+[🎬 Demo](https://www.loom.com/share/15ca447c73c246ccafb7e6cb7cf675a9) · [🔴 Live App](https://fintrix-frontend-r4hn.vercel.app/) · [⚙️ CI/CD](https://github.com/vaibhavi-0320/StellerFund/actions)
 
 </div>
 

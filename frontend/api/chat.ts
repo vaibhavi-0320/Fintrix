@@ -1,0 +1,18 @@
+import { askAssistant, jsonError } from "../backend/service";
+
+export default async function handler(req: any, res: any) {
+  if (req.method !== "POST") {
+    res.status(405).json({ error: "Method not allowed." });
+    return;
+  }
+
+  try {
+    res.status(200).json(await askAssistant({
+      question: String(req.body?.question || ""),
+      walletAddress: req.body?.walletAddress,
+      view: req.body?.view,
+    }));
+  } catch (error) {
+    res.status(500).json(jsonError(error));
+  }
+}

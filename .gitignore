@@ -1,0 +1,11 @@
+node_modules/
+.vite/
+dist/
+frontend/node_modules/
+frontend/dist/
+target/
+contracts/*/target/
+contracts/*/test_snapshots/
+.env
+frontend/.env
+stitch_web3_hero_section.zip

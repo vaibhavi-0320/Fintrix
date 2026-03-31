@@ -1,0 +1,107 @@
+[
+  {
+    "id": "30",
+    "buyer": "Aryan",
+    "amount": 10,
+    "discount": 7,
+    "due": "2026-04-01",
+    "status": "repaid",
+    "seller": "GALWWE...T7SQ",
+    "yield": 7.8,
+    "funded": 10,
+    "tags": [
+      "AI Screened",
+      "Prime"
+    ],
+    "riskScore": 32,
+    "aiSummary": "Invoice parsed and approved for simulated marketplace funding.",
+    "funder": "GALWWEGHOMU5YODTZBVGPFP2OHCJH5VO3VKWNMW7ZNT6OECINVPQT7SQ"
+  },
+  {
+    "id": "3",
+    "buyer": "parth",
+    "amount": 100,
+    "discount": 7,
+    "due": "2026-03-31",
+    "status": "repaid",
+    "seller": "GALWWE...T7SQ",
+    "yield": 7.8,
+    "funded": 100,
+    "tags": [
+      "AI Screened",
+      "Prime"
+    ],
+    "riskScore": 32,
+    "aiSummary": "Invoice parsed and approved for simulated marketplace funding.",
+    "funder": "GALWWEGHOMU5YODTZBVGPFP2OHCJH5VO3VKWNMW7ZNT6OECINVPQT7SQ"
+  },
+  {
+    "id": "INV-1774954975035",
+    "buyer": "Parsed Buyer",
+    "amount": 25000,
+    "discount": 7,
+    "due": "2026-04-30",
+    "status": "active",
+    "seller": "GALWWE...T7SQ",
+    "yield": 7.8,
+    "funded": 0,
+    "tags": [
+      "AI Screened",
+      "Prime"
+    ],
+    "riskScore": 32,
+    "aiSummary": "Fallback parser used for payload length 48262."
+  },
+  {
+    "id": "INV-001",
+    "buyer": "Acme Export Group",
+    "amount": 24500,
+    "discount": 5,
+    "due": "2026-05-15",
+    "status": "active",
+    "seller": "GDEMO...XK4F",
+    "yield": 5.8,
+    "funded": 0,
+    "tags": [
+      "B2B",
+      "Prime"
+    ],
+    "riskScore": 32,
+    "aiSummary": "Verified export invoice for a repeat buyer with moderate tenor and clean metadata."
+  },
+  {
+    "id": "INV-002",
+    "buyer": "GlobalTech Distribution",
+    "amount": 87000,
+    "discount": 7,
+    "due": "2026-06-01",
+    "status": "active",
+    "seller": "GBETA...M9QR",
+    "yield": 8.4,
+    "funded": 0,
+    "tags": [
+      "Enterprise",
+      "AI Screened"
+    ],
+    "riskScore": 51,
+    "aiSummary": "Large enterprise receivable with strong payoff size and clear shipping references."
+  },
+  {
+    "id": "INV-003",
+    "buyer": "NexaLogistics",
+    "amount": 15200,
+    "discount": 4,
+    "due": "2026-04-30",
+    "status": "funded",
+    "seller": "GGAMMA...PN2",
+    "funder": "GFUND...1234",
+    "yield": 4.8,
+    "funded": 15200,
+    "tags": [
+      "Logistics",
+      "Settling Soon"
+    ],
+    "riskScore": 28,
+    "aiSummary": "Short duration invoice already committed by an investor and awaiting simulated repayment."
+  }
+]

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fintrix Profile &amp; Progress</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#aaabab",
+              "surface-container-lowest": "#0e0e0e",
+              "tertiary": "#e2e2e2",
+              "outline-variant": "#474747",
+              "outline": "#919191",
+              "on-secondary-container": "#e2e2e2",
+              "surface-dim": "#131313",
+              "on-tertiary": "#1a1c1c",
+              "on-surface-variant": "#c6c6c6",
+              "on-primary-fixed": "#ffffff",
+              "primary-container": "#d4d4d4",
+              "primary-fixed-dim": "#454747",
+              "on-tertiary-fixed-variant": "#e2e2e2",
+              "surface-bright": "#393939",
+              "on-error": "#690005",
+              "inverse-surface": "#e2e2e2",
+              "surface-container-low": "#1b1b1b",
+              "secondary-fixed": "#c6c6c7",
+              "on-background": "#e2e2e2",
+              "inverse-on-surface": "#303030",
+              "primary-fixed": "#5d5f5f",
+              "surface-container": "#1f1f1f",
+              "background": "#000000",
+              "tertiary-fixed-dim": "#454747",
+              "tertiary-fixed": "#5d5f5f",
+              "on-tertiary-fixed": "#ffffff",
+              "secondary": "#c6c6c7",
+              "on-secondary-fixed": "#1a1c1c",
+              "inverse-primary": "#5d5f5f",
+              "surface-variant": "#353535",
+              "primary": "#ffffff",
+              "on-primary-fixed-variant": "#e2e2e2",
+              "error": "#ffb4ab",
+              "surface": "#131313",
+              "on-tertiary-container": "#000000",
+              "on-error-container": "#ffdad6",
+              "on-surface": "#e2e2e2",
+              "error-container": "#93000a",
+              "surface-tint": "#c6c6c7",
+              "tertiary-container": "#909191",
+              "on-primary-container": "#000000",
+              "on-primary": "#1a1c1c",
+              "secondary-container": "#454747",
+              "on-secondary": "#1a1c1c",
+              "on-secondary-fixed-variant": "#3a3c3c",
+              "surface-container-high": "#2a2a2a",
+              "surface-container-highest": "#353535"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #000000;
+            color: #e2e2e2;
+            font-family: 'Inter', sans-serif;
+        }
+        .font-general {
+            font-family: 'Manrope', sans-serif;
+            letter-spacing: -0.02em;
+        }
+        .glass-panel {
+            background: rgba(31, 31, 31, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .obsidian-gradient {
+            background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);
+        }
+    </style>
+</head>
+<body class="flex min-h-screen">
+<!-- SideNavBar Component -->
+<aside class="h-screen w-64 bg-neutral-950 flex flex-col py-8 px-4 border-r border-neutral-800/50 fixed left-0 top-0 z-50">
+<div class="mb-12 px-4 flex items-center gap-3">
+<img alt="Fintrix Logo" class="w-8 h-8" data-alt="Minimalist abstract geometric logo with sharp angles and metallic chrome finish on a black background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDixmY3nn982HrAbDDeOAnLDvcS6GRB1n0kXeema5x1UJ4TZW2LRDdnb41zwuEHHZAr6cV0diW5tMmUh2l3yDR5p4ou0_RXIjnHYwqEsyBjT60Ro1fN8kz9rcl9fQ6_UAvkxpbl0MKB4fHAV-moGXlc-aNZSoNMFVJvR7BQHJG3nWkoceMVhx26VLlkJy1Tmf8KKzwI2cmqHTioyBENb1Wg4Yqk_iD6m1WXb8HLbi4blbvdjRA4OXjaMdOZTd4UiXPfpYA9tPiKjHA"/>
+<div>
+<h2 class="text-lg font-black text-white font-general tracking-tighter">Fintrix Elite</h2>
+<p class="text-[10px] text-neutral-500 font-label tracking-widest uppercase">Financial Simulation</p>
+</div>
+</div>
+<nav class="flex-1 space-y-2">
+<!-- Active Tab: Overview (Mapping to Profile Context) -->
+<a class="bg-white/10 text-white rounded-full flex items-center gap-3 px-4 py-3 translate-x-1 duration-200 transition-colors font-medium text-sm font-general" href="#">
+<span class="material-symbols-outlined text-xl" data-icon="dashboard">dashboard</span>
+<span>Overview</span>
+</a>
+<a class="text-neutral-500 hover:text-neutral-200 hover:bg-neutral-900 flex items-center gap-3 px-4 py-3 rounded-full transition-colors font-medium text-sm font-general" href="#">
+<span class="material-symbols-outlined text-xl" data-icon="account_balance_wallet">account_balance_wallet</span>
+<span>Assets</span>
+</a>
+<a class="text-neutral-500 hover:text-neutral-200 hover:bg-neutral-900 flex items-center gap-3 px-4 py-3 rounded-full transition-colors font-medium text-sm font-general" href="#">
+<span class="material-symbols-outlined text-xl" data-icon="monitoring">monitoring</span>
+<span>Market</span>
+</a>
+<a class="text-neutral-500 hover:text-neutral-200 hover:bg-neutral-900 flex items-center gap-3 px-4 py-3 rounded-full transition-colors font-medium text-sm font-general" href="#">
+<span class="material-symbols-outlined text-xl" data-icon="history">history</span>
+<span>History</span>
+</a>
+<a class="text-neutral-500 hover:text-neutral-200 hover:bg-neutral-900 flex items-center gap-3 px-4 py-3 rounded-full transition-colors font-medium text-sm font-general" href="#">
+<span class="material-symbols-outlined text-xl" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+</nav>
+<div class="mt-auto px-2">
+<button class="w-full py-4 bg-white text-black font-bold rounded-full text-xs tracking-widest uppercase hover:scale-[1.02] transition-transform active:scale-95">
+                Upgrade Tier
+            </button>
+</div>
+</aside>
+<!-- Main Canvas -->
+<main class="flex-1 ml-64 p-12 bg-black">
+<!-- Header / Profile Section -->
+<header class="flex justify-between items-end mb-16">
+<div class="flex items-center gap-8">
+<div class="relative">
+<div class="w-32 h-32 rounded-full overflow-hidden border border-outline-variant/30">
+<img alt="User Avatar" class="w-full h-full object-cover grayscale" data-alt="Close-up portrait of a sophisticated man with sharp features, high-contrast black and white photography, moody editorial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6lScPPs1HypBTuB5cQO_AfYUJ7sXt7Z1nRtBNVl1gmkCj3yGcsAdckTHZvt4ABOGukL_2DswXYHxx22cHyUhlicYSfeQgNoQpc7a89K4gYQ2O0kfeCw1Q7arce1XD1oxvWkICMcAEtMYs-R-nIPfpSvrebK9kwZXw2jmw_He1ej9IucZ7rUWeSTDMVWrO9VaLo08SOQSJY0ctooMPJ7lT5Mwyf9-OWU8kjl9A3S95XaleKi6czDcMeIOjL5qYOEdLrromjE41R0o"/>
+</div>
+<div class="absolute bottom-1 right-1 w-6 h-6 bg-blue-500 border-4 border-black rounded-full"></div>
+</div>
+<div class="space-y-2">
+<span class="text-[10px] text-outline font-label tracking-[0.2em] uppercase">Executive Account</span>
+<h1 class="text-5xl font-extrabold font-general text-white">Alexios V. Obsidian</h1>
+<p class="text-on-surface-variant/70 max-w-md font-body text-sm leading-relaxed">
+                        Quantitative strategist specializing in high-frequency algorithmic derivatives. Curating a portfolio of decentralized assets with a focus on long-term systemic stability.
+                    </p>
+</div>
+</div>
+<div class="hidden lg:block text-right">
+<div class="text-[10px] text-outline font-label tracking-[0.2em] uppercase mb-1">Current Tier</div>
+<div class="text-2xl font-bold font-general text-white">Obsidian Black</div>
+</div>
+</header>
+<!-- Bento Grid Stats -->
+<section class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+<div class="bg-surface-container p-8 rounded-2xl obsidian-gradient border border-white/5 flex flex-col justify-between h-40 group hover:bg-surface-container-low transition-colors duration-300">
+<span class="text-[10px] text-outline font-label tracking-widest uppercase">Total Invested</span>
+<div class="text-3xl font-bold font-general text-white group-hover:scale-105 transition-transform origin-left">$4,280,000</div>
+</div>
+<div class="bg-surface-container p-8 rounded-2xl obsidian-gradient border border-white/5 flex flex-col justify-between h-40 group hover:bg-surface-container-low transition-colors duration-300">
+<span class="text-[10px] text-outline font-label tracking-widest uppercase">Net Profit</span>
+<div class="text-3xl font-bold font-general text-white group-hover:scale-105 transition-transform origin-left">+$842,150</div>
+</div>
+<div class="bg-surface-container p-8 rounded-2xl obsidian-gradient border border-white/5 flex flex-col justify-between h-40 group hover:bg-surface-container-low transition-colors duration-300">
+<span class="text-[10px] text-outline font-label tracking-widest uppercase">Success Rate</span>
+<div class="text-3xl font-bold font-general text-white group-hover:scale-105 transition-transform origin-left">78.4%</div>
+</div>
+<div class="bg-surface-container p-8 rounded-2xl obsidian-gradient border border-white/5 flex flex-col justify-between h-40 group hover:bg-surface-container-low transition-colors duration-300">
+<span class="text-[10px] text-outline font-label tracking-widest uppercase">Deals Completed</span>
+<div class="text-3xl font-bold font-general text-white group-hover:scale-105 transition-transform origin-left">1,244</div>
+</div>
+</section>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Transaction History -->
+<section class="lg:col-span-8 space-y-8">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-bold font-general text-white">Transaction History</h3>
+<button class="text-[10px] text-outline font-label tracking-widest uppercase hover:text-white transition-colors">Export CSV</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="border-b border-outline-variant/20">
+<th class="pb-4 text-[10px] text-outline font-label tracking-widest uppercase">Asset</th>
+<th class="pb-4 text-[10px] text-outline font-label tracking-widest uppercase">Type</th>
+<th class="pb-4 text-[10px] text-outline font-label tracking-widest uppercase">Date</th>
+<th class="pb-4 text-[10px] text-outline font-label tracking-widest uppercase text-right">Amount</th>
+<th class="pb-4 text-[10px] text-outline font-label tracking-widest uppercase text-right">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/10 font-body text-sm">
+<tr class="group hover:bg-surface-container-low/50 transition-colors">
+<td class="py-6 font-medium text-white">BTC / Obsidian Node</td>
+<td class="py-6 text-on-surface-variant">Liquid Staking</td>
+<td class="py-6 text-on-surface-variant/60">Oct 24, 2024</td>
+<td class="py-6 text-right font-general text-white">1.42 BTC</td>
+<td class="py-6 text-right"><span class="px-3 py-1 bg-white/5 text-white text-[10px] rounded-full border border-white/10">Completed</span></td>
+</tr>
+<tr class="group hover:bg-surface-container-low/50 transition-colors">
+<td class="py-6 font-medium text-white">ETH 2.0 Vault</td>
+<td class="py-6 text-on-surface-variant">Yield Farm</td>
+<td class="py-6 text-on-surface-variant/60">Oct 22, 2024</td>
+<td class="py-6 text-right font-general text-white">42.00 ETH</td>
+<td class="py-6 text-right"><span class="px-3 py-1 bg-white/5 text-white text-[10px] rounded-full border border-white/10">Completed</span></td>
+</tr>
+<tr class="group hover:bg-surface-container-low/50 transition-colors">
+<td class="py-6 font-medium text-white">Solana Prime</td>
+<td class="py-6 text-on-surface-variant">Swap</td>
+<td class="py-6 text-on-surface-variant/60">Oct 19, 2024</td>
+<td class="py-6 text-right font-general text-white">850.5 SOL</td>
+<td class="py-6 text-right"><span class="px-3 py-1 bg-white/5 text-white text-[10px] rounded-full border border-white/10">Processing</span></td>
+</tr>
+<tr class="group hover:bg-surface-container-low/50 transition-colors">
+<td class="py-6 font-medium text-white">USDC Reserve</td>
+<td class="py-6 text-on-surface-variant">Transfer</td>
+<td class="py-6 text-on-surface-variant/60">Oct 15, 2024</td>
+<td class="py-6 text-right font-general text-white">$120,000.00</td>
+<td class="py-6 text-right"><span class="px-3 py-1 bg-white/5 text-white text-[10px] rounded-full border border-white/10">Completed</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Leaderboard -->
+<section class="lg:col-span-4 space-y-8">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-bold font-general text-white">Global Ranking</h3>
+<span class="text-[10px] text-blue-500 font-label tracking-widest uppercase">Season 04</span>
+</div>
+<div class="space-y-4">
+<!-- Rank 01 -->
+<div class="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-surface-container/50">
+<span class="text-xl font-black font-general text-neutral-700">01</span>
+<div class="w-10 h-10 rounded-full bg-neutral-800"></div>
+<div class="flex-1">
+<div class="text-sm font-bold text-white">Victor G.</div>
+<div class="text-[10px] text-on-surface-variant/60">ROI: +214%</div>
+</div>
+<span class="material-symbols-outlined text-yellow-500 text-sm" data-icon="workspace_premium">workspace_premium</span>
+</div>
+<!-- Rank 02 -->
+<div class="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-surface-container/50">
+<span class="text-xl font-black font-general text-neutral-700">02</span>
+<div class="w-10 h-10 rounded-full bg-neutral-800"></div>
+<div class="flex-1">
+<div class="text-sm font-bold text-white">Elena R.</div>
+<div class="text-[10px] text-on-surface-variant/60">ROI: +198%</div>
+</div>
+</div>
+<!-- User Rank Highlighted -->
+<div class="flex items-center gap-4 p-4 rounded-xl border border-blue-500/30 bg-blue-500/10 scale-[1.02]">
+<span class="text-xl font-black font-general text-blue-500">14</span>
+<div class="w-10 h-10 rounded-full border-2 border-blue-500/50 overflow-hidden">
+<img alt="User" class="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrCqUUiJbYaGNgzE9RRQ2l7YXlBdOLJ-_AoLjzz4QBb8pE0_UVbJP5hwDYlGg1i8tbc3LSK75XtARkj6iSx8_RgGDQY8v7VHcfq8MnuV0vM0n7mAgSNSVXhsr3Zb70uJxpiWk3ttpmVu0kAtb-eixHnxHPUNwuqLAzoab8y4KlkQVdVYtbrMxHBG8DLekpn7ohi4nxBKhx3oqAKV_ooCTaavatvR2RE945jaR1tb7TIW_DE6pSVxscB7lAjkDr310gcc6ymV_a3zM"/>
+</div>
+<div class="flex-1">
+<div class="text-sm font-bold text-white">Alexios V. (You)</div>
+<div class="text-[10px] text-blue-400">ROI: +112%</div>
+</div>
+<div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
+</div>
+<!-- Rank 15 -->
+<div class="flex items-center gap-4 p-4 rounded-xl border border-white/5 bg-surface-container/50">
+<span class="text-xl font-black font-general text-neutral-700">15</span>
+<div class="w-10 h-10 rounded-full bg-neutral-800"></div>
+<div class="flex-1">
+<div class="text-sm font-bold text-white">Marcus T.</div>
+<div class="text-[10px] text-on-surface-variant/60">ROI: +108%</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Footer Component -->
+<footer class="mt-24 w-full border-t border-white/5 flex justify-between items-center py-10 text-neutral-600">
+<div class="font-label text-xs tracking-widest uppercase">© 2024 Fintrix Systems.</div>
+<div class="flex gap-8 font-label text-xs tracking-widest uppercase">
+<a class="hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Terms</a>
+<a class="hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Privacy</a>
+<a class="hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Docs</a>
+<a class="hover:text-white transition-opacity opacity-80 hover:opacity-100" href="#">Support</a>
+</div>
+</footer>
+</main>
+</body></html>

@@ -1,0 +1,8 @@
+frontend/node_modules
+frontend/dist
+node_modules
+target
+docs
+frontend/design-references/stitch_web3_hero_section
+contracts/*/target
+contracts/*/test_snapshots

@@ -53,6 +53,53 @@ Fintrix is an AI-powered invoice finance simulation platform with:
 - Visitor and activity tracking for product metrics
 
 ---
+## 📢 User Feedback
+
+We actively collect feedback to improve the platform.
+
+👉 **Submit your feedback here:**  
+[Feedback Form](https://your-feedback-form-link.com)
+
+Your input helps us improve features, usability, and performance.
+
+---
+
+## 📊 User Feedback Data (Responses Sheet)
+
+All submitted feedback is tracked and organized here:
+
+👉 **View Responses Sheet:**  
+[Google Sheet](https://your-google-sheet-link.com)
+
+### Includes:
+- User suggestions  
+- Bug reports  
+- Feature requests  
+- General feedback  
+
+---
+
+## 🧠 How Feedback is Used
+
+We review all responses and prioritize improvements based on:
+
+- Frequency of issues reported  
+- Impact on user experience  
+- Feasibility of implementation  
+
+---
+
+## 🛠 Contributing
+
+If you'd like to contribute:
+
+1. Fork the repository  
+2. Create a new branch (`feature/your-feature-name`)  
+3. Commit your changes  
+4. Push to your fork  
+5. Open a Pull Request  
+
+---
 
 ## 📈 Metrics Dashboard (Live)
 

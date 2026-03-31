@@ -112,7 +112,7 @@ This schema is query-ready and migration-ready for relational storage.
 ## 🧪 Feedback Documentation and Iteration
 
 Feedback and iteration are documented in:
-- `docs/USER_FEEDBACK.md`
+- `https://docs.google.com/forms/d/e/1FAIpQLSd0gPeNOEnbcRU0Ld6SxiL9ShnmChXzCGci0pdPFaqKBft8LQ/viewform?usp=dialog`
 
 Implemented feedback iteration:
 - Marketplace empty-state issue resolved with fallback data + richer filters/cards.

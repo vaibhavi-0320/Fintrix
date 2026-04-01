@@ -49,48 +49,6 @@ Business lists invoice  →  AI scores risk  →  Funder commits XLM  →  Repay
                                              →  Risk too high?    →  AI warns before you fund
 ```
 
----
-
-## 🥋 Stellar Journey to Mastery — Level 5 & 6
-
-<div align="center">
-
-| | Level | Status | Deliverable |
-|:-:|:--|:-:|:--|
-| 🟣 | **Level 5** | ✅ | Working MVP with user validation |
-| 🔵 | **Level 6** | ✅ | Production-ready application |
-
-</div>
-
-<details>
-<summary><strong>🟣 Level 5 — MVP with User Validation</strong></summary>
-
-<br/>
-
-- ✅ **Fully functional MVP** — marketplace, funding workflow, repayment lifecycle
-- ✅ **Feedback form deployed** — structured user research across test cohort
-- ✅ **Feedback documented** — responses logged and analysed in `docs/USER_FEEDBACK.md`
-- ✅ **Iteration completed** — marketplace empty-state issue resolved with fallback data, richer filters, and improved cards
-- ⚪ `5+ real testnet users` — excluded from current scope per submission requirements
-
-</details>
-
-<details open>
-<summary><strong>🔵 Level 6 — Production-Ready Application</strong></summary>
-
-<br/>
-
-- ✅ **Metrics dashboard live** — DAU proxy, transaction volume, managed assets, active deals
-- ✅ **Security checklist completed** — see `docs/SECURITY_CHECKLIST.md`
-- ✅ **Monitoring active** — `/api/health` endpoint, persisted JSON records, runtime error handling
-- ✅ **Data indexing implemented** — `invoices`, `transactions`, `visitors` schema, migration-ready
-- ✅ **Full documentation** — architecture, implementation guide, user guide, production refactor notes
-- ✅ **Community contribution documented** — contributor-facing technical guides in `docs/`
-- ✅ **Advanced feature implemented** — AI Risk Detector with proactive decision warnings
-- ✅ **15+ meaningful commits** — maintained across the full milestone arc
-- ⚪ `30+ verified active users` — excluded from current scope per submission requirements
-
-</details>
 
 ---
 

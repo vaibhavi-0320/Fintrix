@@ -1,8 +1,8 @@
 <div align="center">
-
 <br/>
 
-# ◈ FINTRIX
+<img src="" alt="Fintrix — Safe DeFi Simulation Layer for Invoice Finance on Stellar" width="100%"/>
+<br/><br/>
 
 ### Safe DeFi Simulation Layer for Invoice Finance on Stellar
 

@@ -287,7 +287,7 @@ Fintrix maintains structured records across three primary entities. The schema i
 
 **Feedback collection:**
 - Form: [User Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSd0gPeNOEnbcRU0Ld6SxiL9ShnmChXzCGci0pdPFaqKBft8LQ/viewform?usp=dialog)
-- Responses: [Feedback Spreadsheet](https://docs.google.com/spreadsheets/d/1Z_g-usNOPdgCqJD8ugVWBnagJsbDabLCqWhYH1XF3yA/edit#gid=13758662)
+
 - Analysis: `docs/USER_FEEDBACK.md`
 
 **Iteration completed:**

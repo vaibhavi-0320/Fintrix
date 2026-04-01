@@ -1,7 +1,7 @@
 <div align="center">
 <br/>
 
-<img src="" alt="Fintrix — Safe DeFi Simulation Layer for Invoice Finance on Stellar" width="100%"/>
+<img src="Screenshots/banner.png" alt="Fintrix — Safe DeFi Simulation Layer for Invoice Finance on Stellar" width="100%"/>
 <br/><br/>
 
 ### Safe DeFi Simulation Layer for Invoice Finance on Stellar
@@ -71,30 +71,28 @@ The platform is designed as a **production-grade MVP** with live telemetry, AI-a
 ## 📸 App Screenshots
 
 ### Marketplace — Browse Invoice Opportunities
+<img src="Screenshots/Marketplace.png" width="100%"/>
 
 > *Filter by sector, yield, and risk tier. Every card shows AI-computed risk score before you commit.*
 
 ---
 
 ### AI Risk Detector — Pre-Decision Analysis
+<img src="Screenshots/ai chatbot.png" width="100%"/>
 
 > *The assistant surfaces warnings before high-risk funding decisions — proactive, not reactive.*
 
 ---
 
 ### mobile application Overview
+<img src="Screenshots/mobile.jpeg" width="100%"/>
 
 > *Select amount, review risk summary, sign with Freighter. Full animated loading overlay tracks confirmation.*
 
 ---
 
-### Simulation Command Center
-
-> *Run funding simulations in a sandboxed environment. Test strategies without real capital.*
-
----
-
 ### Metrics Dashboard — Live Product Telemetry
+<img src="Screenshots/dashboard.png" width="100%"/>
 
 > *DAU proxy, managed asset volume, active deals, and transaction count — all wired to live data.*
 

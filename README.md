@@ -82,7 +82,7 @@ The platform is designed as a **production-grade MVP** with live telemetry, AI-a
 
 ---
 
-### Funding Workflow — Commit XLM to an Invoice
+### mobile application Overview
 
 > *Select amount, review risk summary, sign with Freighter. Full animated loading overlay tracks confirmation.*
 

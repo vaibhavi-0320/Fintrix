@@ -153,14 +153,6 @@ Implemented feedback iteration:
 
 ---
 
-## 🚀 Quick Start
-
-```bash
-npm install
-npm run dev
-```
-
----
 
 ## 📄 License
 
